@@ -1,0 +1,79 @@
+/* Resetador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico para o corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: rgba(8, 5, 150, 0.333);
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: #095b7e;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #11b880;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.destaque:hover {
+  color: #b81165;
+}
+/* Conteúdo principal */
+.index-h1 {
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+/* Para a página Contato */
+.contato-texto {
+  margin-left: 20px;
+}
+#mensagem {
+  height: 150px;
+  width: 250px;
+}
+
+/* Para a página Formação */
+.formacao-texto {
+  margin-left: 20px;
+}
+/* Para a página Portfólio */
+.port-titulo1 {
+  margin-left: 0px;
+  line-height: 2;
+}
+.port-texto {
+  margin-left: 15px;
+}
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #11b880;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20;
+}
